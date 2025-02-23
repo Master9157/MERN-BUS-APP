@@ -11,19 +11,19 @@ var app = express();
 
 
 // Login and Register 
-// require('./auth/auth');
-// const login = require('./routes/login')
-// const loggedInPage = require('./routes/loggedInUser');
+require('./auth/auth');
+const login = require('./routes/login')
+const loggedInPage = require('./routes/loggedInUser');
 // ----------------------------------------------------
 
 // const bookingRoute = require('./routes/routeSelection')
 
-// var registerRouter = require('./routes/register');
+var registerRouter = require('./routes/register');
 //--------------------------------------------------------
 
 
 //DB Config
-// const DB_URL = require('./config/keys').MongoURI;
+const DB_URL = require('./config/keys').MongoURI;
 
 //connect to mongo
 //---------------------------------------------
